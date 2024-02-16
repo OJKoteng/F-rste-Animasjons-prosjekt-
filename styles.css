@@ -1,1 +1,12 @@
 
+.box { width: 100px;
+height: 100px;
+background-color: aqua;
+position: relative;
+animation-name: namebox;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+
+}
+
