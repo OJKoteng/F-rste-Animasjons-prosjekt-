@@ -1,7 +1,7 @@
 
 .box { width: 100px;
 height: 100px;
-background-color: aqua;
+background-color: rgb(13, 0, 255);
 position: relative;
 animation-name: moveBox; 
 animation-duration: 2s;
