@@ -31,5 +31,15 @@ h1 { font-size: 5vw
     background-clip: text; /* Clip the background to text */
     color: transparent; /* Make the text transparent */
   }
+
+  h2 { font-size: 5vw;
+
+
+  }
+
+.hover-effect:hover { color: blue; cursor: pointer;
+
+
+}
   
 
