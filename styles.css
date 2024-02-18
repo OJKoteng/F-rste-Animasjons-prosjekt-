@@ -25,3 +25,11 @@ transition: width 0.5 ease-out
 h1 { font-size: 20vw;
 }
 
+.gradient-text {
+    background-image: linear-gradient(to right, #ff7e5f, #feb47b); /* Gradient colors */
+    -webkit-background-clip: text; /* Clip the background to text */
+    background-clip: text; /* Clip the background to text */
+    color: transparent; /* Make the text transparent */
+  }
+  
+
