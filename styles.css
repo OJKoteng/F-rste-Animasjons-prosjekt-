@@ -41,5 +41,18 @@ h1 { font-size: 5vw
 
 
 }
+
+.continuous-color-change {
+  animation: colorChange 5s infinite; /* Apply animation */
+}
+
+@keyframes colorChange {
+  0% { color: red; } /* Start color */
+  25% { color: blue; } /* 25% of the way through, change color */
+  50% { color: green; } /* 50% of the way through, change color */
+  75% { color: orange; } /* 75% of the way through, change color */
+  100% { color: purple; } /* End color */
+}
+
   
 
