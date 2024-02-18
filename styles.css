@@ -7,6 +7,12 @@ animation-name: moveBox;
 animation-duration: 2s;
 animation-iteration-count: infinite;
 animation-direction: alternate;
+transition: width 0.5 ease-out
+
+}
+
+.box:hover { width: 200px;
+
 
 }
 
